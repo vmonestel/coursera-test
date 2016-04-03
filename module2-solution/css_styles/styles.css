@@ -11,7 +11,7 @@ p {
   border: 1px solid black;
   background-color: #A52A2A;
   width: 90%;
-  height: 200px;
+  height: 160px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
@@ -30,7 +30,6 @@ p {
   background-color: #5F9EA0;
   position: absolute;
   top: 0;
-  right: 5%;
   width: 100px;
   height: 25px;
   border: 1px solid black;
@@ -38,7 +37,6 @@ p {
   color: black;
   padding-top: 0;
 }
-
 
 /* Simple Responsive Framework. */
 .row {
@@ -86,6 +84,10 @@ p {
   .col-lg-12 {
     width: 100%;
   }
+  .normal_title
+  {
+    right: 5%;
+  }
 }
 
 /********** Medium devices only **********/
@@ -129,6 +131,16 @@ p {
   .col-md-12 {
     width: 100%;
   }
+  .last_paragraph
+  {
+    width: 95%;
+  }
+  .normal_title{
+    right:5%;
+  }
+  .last_title{
+    right: 2.5%;
+  }
 }
 
 /********** Small devices only **********/
@@ -171,5 +183,8 @@ p {
   }
   .col-sm-12 {
     width: 100%;
+  }
+  .normal_title{
+    right: 5%;
   }
 }
