@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: blue;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  line-height: .75;
+  font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list div {
+  color: black;
+  text-align: center;
+}
+#nav-list div:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#dish
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+  background: #b3b3b3;
+  height: 1000px;
+}
+
+#dish-title
+{
+  font-weight: bold;
+  font-size: 1.8em;
+  margin-bottom: 25px;
+}
+
+h2
+{
+  font-size: 3em;
+  font-weight: bold;
+}
+
+/* END HEADER */
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  #header-nav {
+    padding-bottom: 0px;
+  }
+
+  .navbar-brand {
+    padding-top: 30px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav div { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    border: 1px solid black
+  }
+
+  #collapsable-nav
+  { 
+    background: white;
+  }
+
+  #nav-list
+  {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* End Header */
+
+/* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;
+  }
+
+  #dish{
+    margin: 30px auto 30px;
+  }
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 15px;
+    font-size: 6vw;
+  }
+  /* End Header */
+}
