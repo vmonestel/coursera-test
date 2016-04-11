@@ -48,9 +48,21 @@
   font-size: 1.8em;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+/*.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid black;
-  background-color: white;
+}*/
+
+#center-item
+{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+#initial-item, #last-item
+{
+  border: 1px solid black;
 }
 
 
@@ -104,7 +116,7 @@ h2
 
   #collapsable-nav div { /* Collapsed nav menu text */
     font-size: 1.2em;
-    border: 1px solid black
+    /*border: 1px solid black*/
   }
 
   #collapsable-nav
@@ -157,5 +169,16 @@ h2
     padding-top: 15px;
     font-size: 6vw;
   }
+
+  h2
+  {
+    font-size: 7vw;
+  }
+
+  #dish-title
+  {
+    font-size: 5vw;
+  }
+
   /* End Header */
 }
